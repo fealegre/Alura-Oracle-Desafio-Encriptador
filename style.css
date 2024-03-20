@@ -1,0 +1,124 @@
+body { min-height: 100vh; }
+
+header {
+    background-color: #447cff;
+    padding: 0px;
+    display: flex;
+    align-items: center;    
+}
+
+.logo {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 40px;
+    background-color: #447cff;
+    width: 100px;
+    height: 70px;
+    left: 40px;
+    top: 40px;
+}
+
+.cartel {
+    width: 1650px;
+    text-align: center;    
+    color: #ccc;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.cuadro-mensaje {
+    display: flex;
+    justify-content: center;
+}
+
+form label {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-size: large;
+}
+
+.persona {
+    text-align: center;
+    margin: 5px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.cuadro-encriptado {   
+    color: #717171;     
+    width: 600px;
+    height: 200px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-family: monospace;
+    font-size: large;      
+}
+
+.botones{
+    text-align: center;
+}
+
+
+button {    
+    margin: 20px 5px;
+    background-color: #c87ef9;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 500ms;
+}
+
+button:hover{
+    background-color: #b74aff;
+    
+}
+
+footer{
+    background: #447cff;
+    color: #ccc;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px){
+    textarea {
+        width: 360px;
+    }
+    .cuadro-encriptado {
+        display: flex;
+        width: 360;
+        margin: 5px 5px;
+    }
+    .cartel {
+        font-size: 30px;
+        width: auto;
+    }
+    button {
+        padding: 8px 16px;
+    }
+    
+}
