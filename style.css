@@ -89,6 +89,7 @@ button {
     display: inline-block;
     font-size: 16px;
     transition: 500ms;
+    border-radius: 5px;
 }
 
 button:hover{
